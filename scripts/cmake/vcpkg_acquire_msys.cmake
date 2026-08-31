@@ -441,8 +441,8 @@ macro(z_vcpkg_acquire_msys_declare_all_packages)
         )
     else()
         z_vcpkg_acquire_msys_declare_package(
-            URL "https://mirror.msys2.org/msys/x86_64/msys2-runtime-3.5.3-3-x86_64.pkg.tar.zst"
-            SHA512 35fd12556a53aa57d8f9500c5c98d5e1fc64c6fbba34cc97e2ff78893e5b1b63c417bc1c8d1e62b26b2a93aef120fa1f9f82aad67dff4cc44af169d0d29d68f7
+            URL "https://mirror.msys2.org/msys/x86_64/msys2-runtime-3.5.4-8-x86_64.pkg.tar.zst"
+            SHA512 68b7b50b2923e685f2068492f71634b226bb350ef0ede629d37bb049ec517575afb5f28d1097c7dd48407ff5cf2972b252e6d6f3e988479a2f68dbced9c9fb9e
         )
     endif()
     z_vcpkg_acquire_msys_declare_package(
@@ -460,8 +460,8 @@ macro(z_vcpkg_acquire_msys_declare_all_packages)
         DEPS coreutils libxcrypt sh
     )
     z_vcpkg_acquire_msys_declare_package(
-        URL "https://mirror.msys2.org/msys/x86_64/pkgconf-2.1.1-1-x86_64.pkg.tar.zst"
-        SHA512 9549c9e1f81d56813628231ea589152b69595402adbcfa9cd74953fce982c33e110dc4816df8375f5b709a81da0a3e7e272ea095d1251a9e432ed3064cd5a452
+        URL "https://mirror.msys2.org/msys/x86_64/pkgconf-2.3.0-1-x86_64.pkg.tar.zst"
+        SHA512 38ad69f7da3bfd81282cbb488cb06fe2e5a2d075a7b96499d588a4c398d6778b4a345807d79ac31520b793194f5466ebdf1d00d886c7fa16c5a347230866b11a
         PROVIDES pkg-config
     )
     z_vcpkg_acquire_msys_declare_package(
